@@ -8,7 +8,7 @@ export const DATA = {
   location: "Ann Arbor, MI",
   locationLink: "https://www.google.com/maps/place/annarbor",
   description:
-    "Computer Science and Engineering Physics University of Michigan",
+    "Computer Science & Engineering Physics  University of Michigan",
   summary:
       "I started programming in 2020, ....",
     //"At the end of 2022, I quit my job as a software engineer to go fulltime into building and scaling my own SaaS businesses. In the past, [I pursued a double degree in computer science and business](/#education), [interned at big tech companies in Silicon Valley](https://www.youtube.com/watch?v=d-LJ2e5qKdE), and [competed in over 21 hackathons for fun](/#hackathons). I also had the pleasure of being a part of the first ever in-person cohort of buildspace called [buildspace sf1](https://buildspace.so/sf1).",
@@ -72,6 +72,42 @@ export const DATA = {
 
   work: [
     {
+      company: "Innovation for Impact",
+      href: "https://google.com",
+      badges: [],
+      location: "Ann Arbor, Michigan",
+      title: "Software Developer",
+      logoUrl: "/ifi.jpg",
+      start: "September 2025",
+      end: "Present",
+      description:
+        "Develop this",
+    },
+    {
+      company: "CLAWS",
+      href: "https://claws.engin.umich.edu",
+      badges: [],
+      location: "Ann Arbor, Michigan",
+      title: "AR Developer",
+      logoUrl: "/claws.jpeg",
+      start: "September 2025",
+      end: "Present",
+      description:
+        "Limbo",
+    },
+    {
+      company: "BLiSS",
+      href: "https://sites.google.com/a/umich.edu/bliss/home",
+      badges: [],
+      location: "Ann Arbor, Michigan",
+      title: "Controls Member",
+      logoUrl: "/bliss.png",
+      start: "September 2025",
+      end: "Present",
+      description:
+        "Lorem Ipsum",
+    },
+    {
       company: "Future of Programming Lab",
       href: "https://hazel.org",
       badges: [],
@@ -81,7 +117,7 @@ export const DATA = {
       start: "May 2025",
       end: "Present",
       description:
-        "Implemented the Bitcoin discreet log contract (DLC) protocol specifications as an open source Typescript SDK. Dockerized all microservices and setup production kubernetes cluster. Architected a data lake using AWS S3 and Athena for historical backtesting of bitcoin trading strategies. Built a mobile app using react native and typescript.",
+        "Develop UI features for code editor, implemented onboarding project",
     },
     {
       company: "The Future Innovators Academy",
@@ -120,9 +156,32 @@ export const DATA = {
       start: "August 2025",
       end: "Present",
       description:
-      "EECS280, EECS203, EECS201, PHYSICS340, ENGR100"
+      "EECS 280, EECS 203, EECS 201, PHYSICS 340, ENGR 100"
     },
-    
+    {
+      school: "University of Michigan",
+      href: "https://umich.edu",
+      badges: [],
+      location: "Ann Arbor, Michigan",
+      degree: "High School Dual Enrollment",
+      logoUrl: "/michigan2.png",
+      start: "August 2023",
+      end: "December 2024",
+      description:
+      "MATH 215, MATH 214, PHYSICS 240"
+    },
+    {
+      school: "Pioneer High School",
+      href: "https://pioneer.a2schools.org",
+      badges: [],
+      location: "Ann Arbor, Michigan",
+      degree: "High School Degree",
+      logoUrl: "/phs.png",
+      start: "August 2021",
+      end: "May 2025",
+      description:
+      "FRC, Varsity Tennis, Wharton Global Youth Investment Competition, Asian Youth Club"
+    },
   ],
   projects: [
     {
