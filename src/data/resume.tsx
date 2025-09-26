@@ -77,7 +77,7 @@ export const DATA = {
       badges: [],
       location: "Ann Arbor, Michigan",
       title: "Lab Member",
-      logoUrl: "/atomic.png",
+      logoUrl: "/michigan2.png",
       start: "May 2025",
       end: "Present",
       description:
@@ -89,7 +89,7 @@ export const DATA = {
       href: "http://thefutureinnovatorsacademy.com",
       location: "Ann Arbor, Michigan",
       title: "Summer Camp Instructor",
-      logoUrl: "/shopify.svg",
+      logoUrl: "fia.png",
       start: "July 2025",
       end: "August 2025",
       description:
@@ -101,7 +101,7 @@ export const DATA = {
       badges: [],
       location: "Ann Arbor, Michigan",
       title: "Engineering Captain",
-      logoUrl: "/nvidia.png",
+      logoUrl: "/pihi.png",
       start: "September 2021",
       end: "May 2025",
       description:
@@ -116,7 +116,7 @@ export const DATA = {
       badges: [],
       location: "Ann Arbor, Michigan",
       degree: "B.S.E. Computer Science and Engineering Physics",
-      logoUrl: "/nvidia.png",
+      logoUrl: "/michigan2.png",
       start: "August 2025",
       end: "Present",
       description:
