@@ -8,7 +8,7 @@ export const DATA = {
   location: "Ann Arbor, MI",
   locationLink: "https://www.google.com/maps/place/annarbor",
   description:
-    "Computer Science & Engineering Physics  University of Michigan",
+    "Computer Science + Enginering Physics @ UMich",
   summary:
       "I started programming in 2020, ....",
     //"At the end of 2022, I quit my job as a software engineer to go fulltime into building and scaling my own SaaS businesses. In the past, [I pursued a double degree in computer science and business](/#education), [interned at big tech companies in Silicon Valley](https://www.youtube.com/watch?v=d-LJ2e5qKdE), and [competed in over 21 hackathons for fun](/#hackathons). I also had the pleasure of being a part of the first ever in-person cohort of buildspace called [buildspace sf1](https://buildspace.so/sf1).",
@@ -125,7 +125,7 @@ export const DATA = {
       href: "http://thefutureinnovatorsacademy.com",
       location: "Ann Arbor, Michigan",
       title: "Summer Camp Instructor",
-      logoUrl: "fia.png",
+      logoUrl: "/fia.png",
       start: "July 2025",
       end: "August 2025",
       description:
