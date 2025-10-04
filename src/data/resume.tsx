@@ -46,6 +46,12 @@ export const DATA = {
         icon: Icons.linkedin,
         navbar: true,
       },
+      Resume: {
+        name: "Resume",
+        url: "https://drive.google.com/file/d/1DvsGiHSq2RhwQ6mODB-UmmNbhufWtGX-/view?usp=sharing",
+        icon: Icons.googleDriveMonotone,
+        navbar: true,
+      },
       /*
       X: {
         name: "X",
@@ -76,7 +82,7 @@ export const DATA = {
       href: "https://google.com",
       badges: [],
       location: "Ann Arbor, Michigan",
-      title: "Software Developer",
+      title: "Software Engineer",
       logoUrl: "/ifi.jpg",
       start: "September 2025",
       end: "Present",
@@ -88,25 +94,13 @@ export const DATA = {
       href: "https://claws.engin.umich.edu",
       badges: [],
       location: "Ann Arbor, Michigan",
-      title: "AR Developer",
+      title: "Augmented Reality Software Engineer",
       logoUrl: "/claws.jpeg",
       start: "September 2025",
       end: "Present",
       description:
         "Limbo",
-    },
-    {
-      company: "BLiSS",
-      href: "https://sites.google.com/a/umich.edu/bliss/home",
-      badges: [],
-      location: "Ann Arbor, Michigan",
-      title: "Controls Member",
-      logoUrl: "/bliss.png",
-      start: "September 2025",
-      end: "Present",
-      description:
-        "Lorem Ipsum",
-    },
+    }, 
     {
       company: "Future of Programming Lab",
       href: "https://hazel.org",
@@ -129,7 +123,7 @@ export const DATA = {
       start: "July 2025",
       end: "August 2025",
       description:
-        "Implemented a custom Kubernetes controller in Go to automate the deployment of MySQL and ProxySQL custom resources in order to enable 2,000+ internal developers to instantly deploy their app databases to production. Wrote several scripts in Go to automate MySQL database failovers while maintaining master-slave replication topologies and keeping Zookeeper nodes consistent with changes.",
+        "Instructed children ages 5–13 in programming, Arduino, electronics, CAD, and graphic design, fostering both technical skills and healthy personal habits in an engaging learning environment",
     },
     {
       company: "Pioneer High School FRC Robotics",
@@ -141,7 +135,7 @@ export const DATA = {
       start: "September 2021",
       end: "May 2025",
       description:
-        "Architected and wrote the entire MVP of the GeForce Now Cloud Gaming internal admin and A/B testing dashboard using React, Redux, TypeScript, and Python.",
+        "Directed a 70-person team to design, build, and program three robots, managing the entire engineering process, coordinating cross-team collaboration, and ensuring timely project completion. Transformed software stack by migrating from Python to Java, adopting functional programming practices, and improving odometry precision, computer vision reliability, and motion control accuracy. Advanced team ranking from 40th percentile to 93rd percentile worldwide in three years",
     },
     
   ],
@@ -180,37 +174,41 @@ export const DATA = {
       start: "August 2021",
       end: "May 2025",
       description:
-      "FRC, Varsity Tennis, Wharton Global Youth Investment Competition, Asian Youth Club"
+      "FRC Team 1076, Varsity Tennis, Wharton Global Youth Investment Competition, Asian Youth Club"
     },
   ],
   projects: [
     {
-      title: "Chat Collect",
-      href: "https://chatcollect.com",
-      dates: "Jan 2024 - Feb 2024",
-      active: true,
+      title: "clAI - Command Line AI",
+      href: "",
+      dates: "Sep 2025",
+      active: false,
       description:
-        "With the release of the [OpenAI GPT Store](https://openai.com/blog/introducing-the-gpt-store), I decided to build a SaaS which allows users to collect email addresses from their GPT users. This is a great way to build an audience and monetize your GPT API usage.",
+        "Project that won MHacks 2025 Google Gemini Track; allows users to use natural language to run shell commands; developed with three others",
       technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Stripe",
-        "Shadcn UI",
-        "Magic UI",
+        "Electron",
+        "React",
+        "Tailwind",
+        "Vite",
+        "TypeScript",
+        "Gemini",
+        "WebSockets"
       ],
       links: [
         {
-          type: "Website",
-          href: "https://chatcollect.com",
+          type: "Devpost",
+          href: "https://devpost.com/software/clai?_gl=1*pffobo*_gcl_au*MTI3MTc3Njg5MS4xNzU4OTk4Mjg5*_ga*MTM2NzIyMzY2OC4xNzU4OTk4Mjg5*_ga_0YHJK3Y10M*czE3NTk1NTI3ODgkbzgkZzEkdDE3NTk1NTI4NDAkajgkbDAkaDA",
           icon: <Icons.globe className="size-3" />,
         },
+        {
+          type: "Source",
+          href: "https://github.com/cryplo/mhacks25",
+          icon: <Icons.github className="size-3" />,
+        },
       ],
-      image: "",
+      image: "/clai-picture.jpg",
       video:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
+        "",
     },
     {
       title: "Magic UI",
