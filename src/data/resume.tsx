@@ -117,7 +117,7 @@ export const DATA = {
       start: "May 2025",
       end: "Present",
       description:
-        "Develop UI features for code editor, implemented onboarding project",
+        "Enhanced Hazel code editor through resolving UI bugs and developing new features with ReasonML; Applied type theory principles to design and implement core functionality for onboarding project",
     },
     {
       company: "The Future Innovators Academy",
